@@ -25,6 +25,7 @@ text = recognizer.recognize_google(audio)
 # Print the converted text
 print(text)
 
+
 # Stop recording
 stream.stop_stream()
 stream.close()
